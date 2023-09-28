@@ -1,0 +1,27 @@
+/* Add styling for the code block */
+.code-example {
+    background-color: #1e1e1e; /* Màu nền giống các IDE */
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Style the Python code inside the code block */
+.code-example pre {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #f8f8f2; /* Màu chữ giống các IDE */
+    font-family: "Courier New", monospace; /* Font giống các IDE */
+}
+
+/* Add syntax highlighting for Python code */
+.code-example pre code {
+    display: block;
+    padding: 15px;
+    overflow-x: auto;
+    background-color: #1e1e1e; /* Màu nền giống các IDE */
+    color: #f8f8f2; /* Màu chữ giống các IDE */
+    font-family: "Courier New", monospace; /* Font giống các IDE */
+}
